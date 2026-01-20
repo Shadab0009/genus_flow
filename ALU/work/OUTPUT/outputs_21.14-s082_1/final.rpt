@@ -1,0 +1,84 @@
+
+
+Working Directory = /home/shadab/shadab/genus_flow/ALU/work
+QoS Summary for simple_alu
+================================================================================
+Metric                          syn_generic     syn_map         syn_opt        
+================================================================================
+
+View : view_wcl_slow
+Slack (ps):                     2,653             416             416
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                     2,653             416             416
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                           0               0               0
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                         0               0               0
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                      0               0               0
+
+View : view_wcl_fast
+Slack (ps):                     4,000           1,851           1,851
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                     4,000           1,851           1,851
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                           0               0               0
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                         0               0               0
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                      0               0               0
+
+View : view_wcl_typical
+Slack (ps):                     5,100           1,976           1,976
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                     5,100           1,976           1,976
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                           0               0               0
+  R2R (ps):                  no_value        no_value        no_value
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                         0               0               0
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                      0               0               0
+
+Cell Area:                         25             307             307
+Total Cell Area:                   25             307             307
+Leaf Instances:                   672             176             176
+Total Instances:                  672             176             176
+Utilization (%):                 0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        00:30:10        00:30:05        00:30:03
+Real Runtime (h:m:s):        00:30:22        00:30:05        00:30:03
+CPU  Elapsed (h:m:s):        00:30:14        00:30:19        00:30:22
+Real Elapsed (h:m:s):        00:30:24        00:30:29        00:30:32
+Memory (MB):                  1488.68         1494.26         1495.08
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 00:30:30
+Total Memory (MB):     1503.08
+Executable Version:    21.14-s082_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+
