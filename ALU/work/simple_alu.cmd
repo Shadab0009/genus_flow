@@ -6,3 +6,4 @@
 
 source ../scripts/run.tcl
 gui_show
+exit

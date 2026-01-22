@@ -6,7 +6,7 @@ if {[file exists /proc/cpuinfo]} {
 
 puts "Hostname : [info hostname]"
 
-set DESIGN simple_alu
+set DESIGN counter
 set SYN_EFF medium 
 set MAP_EFF medium
 set OPT_EFF medium
@@ -28,9 +28,9 @@ if {![file exists ${_REPORTS_PATH}]} {
 
 #set rtlDir ../RTL 
 
-set_db init_lib_search_path {. ../../LIB/Nangate45/} 
+set_db init_lib_search_path {/home/shadab/shadab/libs/libs/} 
 set_db script_search_path { . ../scripts/} 
-set_db init_hdl_search_path {. } 
+#set_db init_hdl_search_path {. ../RTL} 
 
 set_db max_cpus_per_server 8 
 
@@ -42,20 +42,19 @@ set_db information_level 9
 # set_db pbs_mmmc_flow true
 
 set_db tns_opto true 
-set_db lp_insert_clock_gating true
+#set_db lp_insert_clock_gating true
+set_db lp_insert_discrete_clock_gating_logic true
 
 
 ## Reading in MMMC defination file and lef files
 read_mmmc ../scripts/mmmc.tcl
 
-read_physical -lefs { \
-   ../../LEF/gsclib045_v3.5/lef/gsclib045_tech.lef
-}
+read_physical -lefs {/home/shadab/shadab/libs/lefs/all.lef}
 
 
 
 # Reading hdl files, initialize the database and elaborating them
-read_hdl "../simple_alu.v"
+read_hdl -sv ../counter.sv
 elaborate $DESIGN
 #read_def ../DEF/dtmf.def
 

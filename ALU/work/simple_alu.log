@@ -5495,3 +5495,11 @@ Synthesis Finished .........
 #@ End verbose source ../scripts/run.tcl
 WARNING: This version of the tool is 1307 days old.
 @genus:root: 2> gui_show
+@genus:root: 3> exit
+
+Lic Summary:
+[17:49:50.391409] Cdslmd servers: DESKTOP-9VIJUON
+[17:49:50.391433] Feature usage summary:
+[17:49:50.391434] Genus_Synthesis
+
+Normal exit.
